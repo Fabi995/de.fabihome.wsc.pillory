@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/vortex/menu.xsd">
+	<import>
+		<menu identifier="de.fabihome.wsc.pilloryMenu">
+			<title language="de">Pranger-Menü</title>
+			<title language="en">Pillory Menu</title>
+
+			<box>
+				<position>sidebarLeft</position>
+				<cssClassName>pilloryMenu</cssClassName>
+				<showHeader>0</showHeader>
+				<visibleEverywhere>0</visibleEverywhere>
+				<visibilityExceptions>
+					<page>de.fabihome.wsc.pillory</page>
+					<page>de.fabihome.wsc.pilloryAvatar</page>
+					<page>de.fabihome.wsc.pillorySignature</page>
+					<page>de.fabihome.wsc.pilloryDeletions</page>
+				</visibilityExceptions>
+			</box>
+		</menu>
+
+	</import>
+</data>

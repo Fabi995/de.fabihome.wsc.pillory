@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.woltlab.com" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="en">
+	<category name="wcf.user">
+		<item name="wcf.user.deletions"><![CDATA[Deletion]]></item>
+		<item name="wcf.user.ban.noReason"><![CDATA[<i>​No reason added</i>]]></item>
+	</category>
+
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.module_pillory"><![CDATA[Pillory]]></item>
+		<item name="wcf.acp.option.category.general.pillory"><![CDATA[Pillory]]></item>
+		<item name="wcf.acp.option.pillory_default_sort_order"><![CDATA[Default Sort Order]]></item>
+		<item name="wcf.acp.option.pillory_items_per_page"><![CDATA[Items Per Page]]></item>
+	</category>
+
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.user.pillory"><![CDATA[Pillory]]></item>
+		<item name="wcf.acp.group.option.user.pillory.canSeePillory"><![CDATA[Can see Pillory]]></item>
+		<item name="wcf.acp.group.option.user.pillory.canSeeDeletions"><![CDATA[Can see Account Deletions]]></item>
+	</category>
+</language>

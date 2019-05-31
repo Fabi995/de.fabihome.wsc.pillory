@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.woltlab.com" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/vortex/menuItem.xsd">
+	<import>
+		<item identifier="de.fabihome.wsc.pillory">
+			<menu>com.woltlab.wcf.MainMenu</menu>
+			<title language="de">Pranger</title>
+			<title language="en">Pillory</title>
+			<page>de.fabihome.wsc.pillory</page>
+		</item>
+
+		<item identifier="de.fabihome.wsc.pilloryBans">
+			<menu>de.fabihome.wsc.pilloryMenu</menu>
+			<title language="de">Sperrungen</title>
+			<title language="en">Bans</title>
+			<page>de.fabihome.wsc.pillory</page>
+		</item>
+
+		<item identifier="de.fabihome.wsc.pilloryAvatar">
+			<menu>de.fabihome.wsc.pilloryMenu</menu>
+			<title language="de">Avatar Sperrung</title>
+			<title language="en">Avatar Ban</title>
+			<page>de.fabihome.wsc.pilloryAvatar</page>
+		</item>
+
+		<item identifier="de.fabihome.wsc.pillorySignature">
+			<menu>de.fabihome.wsc.pilloryMenu</menu>
+			<title language="de">Signatur Sperrung</title>
+			<title language="en">Signature Ban</title>
+			<page>de.fabihome.wsc.pillorySignature</page>
+		</item>
+
+		<item identifier="de.fabihome.wsc.pilloryDeletions">
+			<menu>de.fabihome.wsc.pilloryMenu</menu>
+			<title language="de">Accountlöschungen</title>
+			<title language="en">Account Deletions</title>
+			<page>de.fabihome.wsc.pilloryDeletions</page>
+		</item>
+	</import>
+</data>

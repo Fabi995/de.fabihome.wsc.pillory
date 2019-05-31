@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.woltlab.com" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/vortex/page.xsd">
+	<import>
+		<page identifier="de.fabihome.wsc.pillory">
+			<pageType>system</pageType>
+			<controller>wcf\page\PilloryBansPage</controller>
+			<name language="de">Pranger</name>
+			<name language="en">Pillory</name>
+			<permissions>user.pillory.canSeePillory</permissions>
+
+			<content language="en">
+				<title>Pillory</title>
+			</content>
+			<content language="de">
+				<title>Pranger</title>
+			</content>
+		</page>
+
+		<page identifier="de.fabihome.wsc.pilloryAvatar">
+			<pageType>system</pageType>
+			<controller>wcf\page\PilloryAvatarBansPage</controller>
+			<name language="de">Pranger Avatar</name>
+			<name language="en">Pillory Avatar</name>
+			<permissions>user.pillory.canSeePillory</permissions>
+
+			<content language="en">
+				<title>Pillory</title>
+			</content>
+			<content language="de">
+				<title>Pranger</title>
+			</content>
+		</page>
+
+		<page identifier="de.fabihome.wsc.pillorySignature">
+			<pageType>system</pageType>
+			<controller>wcf\page\PillorySignatureBansPage</controller>
+			<name language="de">Pranger Signatur</name>
+			<name language="en">Pillory Signature</name>
+			<permissions>user.pillory.canSeePillory</permissions>
+
+			<content language="en">
+				<title>Pillory</title>
+			</content>
+			<content language="de">
+				<title>Pranger</title>
+			</content>
+		</page>
+
+		<page identifier="de.fabihome.wsc.pilloryDeletions">
+			<pageType>system</pageType>
+			<controller>wcf\page\PilloryUserDeletionsPage</controller>
+			<name language="de">Pranger Löschungen</name>
+			<name language="en">Pillory Deletions</name>
+			<permissions>user.pillory.canSeeDeletions</permissions>
+
+			<content language="en">
+				<title>Pillory</title>
+			</content>
+			<content language="de">
+				<title>Pranger</title>
+			</content>
+		</page>
+	</import>
+</data>

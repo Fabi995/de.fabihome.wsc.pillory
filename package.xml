@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="de.fabihome.wsc.pranger" xmlns="http://www.woltlab.com" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/votex/package.xsd">
+	<packageinformation>
+		<packagename><![CDATA[Pillory]]></packagename>
+		<packagename language="de"><![CDATA[Pranger]]></packagename>
+		<packagedescription><![CDATA[Lists user bans, account deletions, signature and avatar bans]]></packagedescription>
+		<packagedescription language="de"><![CDATA[Listet Benutzer Sperrungen, Account Löschungen, Signatur und Avatar Sperrungen]]></packagedescription>
+		<version>1.2.0</version>
+		<date>2018-08-17</date>
+		<license><![CDATA[Fabihome Free License <https://https://fabihome.de/license.html>]]></license>
+	</packageinformation>
+
+	<authorinformation>
+		<author>Fabian (Fabi_995)</author>
+		<authorurl>https://fabihome.de</authorurl>
+	</authorinformation>
+
+	<requiredpackages>
+		<requiredpackage minversion="3.0.3">com.woltlab.wcf</requiredpackage>
+	</requiredpackages>
+
+	<excludedpackages>
+		<excludedpackage version="5.3.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+	</excludedpackages>
+
+	<instructions type="install">
+		<!-- files -->
+		<instruction type="file"/>
+		<instruction type="template"/>
+
+		<!-- xml -->
+		<instruction type="page" />
+		<instruction type="menu" />
+		<instruction type="userGroupOption" />
+		<instruction type="option" />
+		<instruction type="menuItem" />
+
+		<!-- language -->
+		<instruction type="language"/>
+	</instructions>
+
+	<instructions type="update" fromversion="1.1.0">
+
+	</instructions>
+</package>

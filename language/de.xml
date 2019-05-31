@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.woltlab.com" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="de">
+	<category name="wcf.user">
+		<item name="wcf.user.deletions"><![CDATA[Löschung]]></item>
+		<item name="wcf.user.ban.noReason"><![CDATA[<i>​Es wurde keine Begründung angegeben</i>]]></item>
+	</category>
+
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.module_pillory"><![CDATA[Pranger]]></item>
+		<item name="wcf.acp.option.category.general.pillory"><![CDATA[Pranger]]></item>
+		<item name="wcf.acp.option.pillory_default_sort_order"><![CDATA[Standard-Reihenfolge]]></item>
+		<item name="wcf.acp.option.pillory_items_per_page"><![CDATA[Einträge pro Seite]]></item>
+	</category>
+
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.user.pillory"><![CDATA[Pranger]]></item>
+		<item name="wcf.acp.group.option.user.pillory.canSeePillory"><![CDATA[Kann Pranger sehen]]></item>
+		<item name="wcf.acp.group.option.user.pillory.canSeeDeletions"><![CDATA[Kann Account löschungen sehen]]></item>
+	</category>
+</language>
