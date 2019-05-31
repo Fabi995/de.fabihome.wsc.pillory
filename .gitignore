@@ -1,0 +1,8 @@
+# PHPStorm
+.idea/
+
+# Packages
+*.tar
+*.tar.gz
+
+build.cmd
